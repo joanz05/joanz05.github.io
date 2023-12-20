@@ -20,7 +20,7 @@ nav{
 	right:0;
 	z-index:2;
 	font-family: 'Antic', serif;
-	font-size: 20px;
+	font-size: 110%;
 	text-transform: uppercase;
 	text-align: right;
 	color: #FFFFFF ; 
@@ -45,9 +45,10 @@ body{
 .home {
 	background-image: linear-gradient(to bottom, #FFFFFF, #F2D1D1);
 	height:112.3vh;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    z-index: 1;
+	width:100%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        z-index: 1;
 }
 
 .photo img {
@@ -80,8 +81,8 @@ h1 {
 	display: inline-block;
 	position: absolute; 
 	left: 810px; 
-	right: 250px; 
 	top: 440px;
+	width: 400px;
 	font-family: 'Antic', serif;
 	text-align: center;
 	color: #000000;
