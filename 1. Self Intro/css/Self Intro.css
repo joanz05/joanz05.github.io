@@ -66,13 +66,14 @@ src: url('font/Country Market.ttf');
 }
 
 
+
 h1 {
 	display: inline-block;
 	position: absolute; 
 	left: 57%; 
 	top: 30%;
 	font-family: 'Country Market';
-	font-size: 140px;
+	font-size: 900%;
 	color: #000000;
 	font-weight: lighter;
 }
@@ -80,14 +81,14 @@ h1 {
 .quote {
 	display: inline-block;
 	position: absolute; 
-	left: 57%; 
+	left: 58%; 
 	top: 63%;
 	width: 30%;
 	font-family: 'Antic', serif;
 	text-align: center;
 	color: #000000;
 	font-weight: lighter;
-	font-size:30px;
+	font-size:200%;
 }
 
 /* ABOUT ME PAGE */
