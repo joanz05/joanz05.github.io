@@ -20,7 +20,7 @@ nav{
 	right:0;
 	z-index:2;
 	font-family: 'Antic', serif;
-	font-size: 110%;
+	font-size: 20px;
 	text-transform: uppercase;
 	text-align: right;
 	color: #FFFFFF ; 
@@ -46,17 +46,17 @@ body{
 	background-image: linear-gradient(to bottom, #FFFFFF, #F2D1D1);
 	height:112.3vh;
 	width:100%;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        z-index: 1;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    z-index: 1;
 }
 
 .photo img {
 	position: absolute; 
-	left: 135px; 
-	top: 184px;
+	left: 10%; 
+	top: 20%;
 	display: inline-block;
-	height: 644px;
+	height: 90%;
 	width: auto;
 }
 
@@ -69,8 +69,8 @@ src: url('font/Country Market.ttf');
 h1 {
 	display: inline-block;
 	position: absolute; 
-	left: 786px; 
-	top: 183px;
+	left: 57%; 
+	top: 30%;
 	font-family: 'Country Market';
 	font-size: 140px;
 	color: #000000;
@@ -80,9 +80,9 @@ h1 {
 .quote {
 	display: inline-block;
 	position: absolute; 
-	left: 810px; 
-	top: 440px;
-	width: 400px;
+	left: 57%; 
+	top: 63%;
+	width: 30%;
 	font-family: 'Antic', serif;
 	text-align: center;
 	color: #000000;
