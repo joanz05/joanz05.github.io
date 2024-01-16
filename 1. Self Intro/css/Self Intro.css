@@ -402,13 +402,13 @@ nav{
 	right:0;
 	z-index:2;
 	font-family: 'Antic', serif;
-	font-size: 30px;
+	font-size: 40px;
 	text-transform: uppercase;
 	text-align: center;
 	color: #FFFFFF ; 
 	background-color: #000000;
 	text-decoration: none;
-	padding: 20px 20px;
+	padding: 50px;
 }
 
 a{
@@ -426,8 +426,7 @@ body{
 
 .home {
 	background-image: linear-gradient(to bottom, #FFFFFF, #F2D1D1);
-	height:200vh;
-	width:400%;
+	width:100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     z-index: 1;
@@ -439,7 +438,7 @@ body{
 	top: 1400px;
 	display: block;
 	height: auto;
-	width: 400%;
+	width: 100%;
 }
 
 @font-face {
@@ -451,13 +450,12 @@ src: url('font/Country Market.ttf');
 h1 {
 	display: block;
 	position: absolute; 
-	left:260px; 
-	top: 350px;
+	left:170px; 
+	top: 50px;
 	font-family: 'Country Market';
-	font-size: 250px;
+	font-size: 370px;
 	color: #000000;
 	font-weight: lighter;
-	width:1000px;
 }
 
 .quote {
@@ -469,8 +467,8 @@ h1 {
 	text-align: center;
 	color: #000000;
 	font-weight: lighter;
-	font-size:70px;
-	width:900px;
+	font-size:80px;
+	width:70%;
 }
 
 /* ABOUT ME PAGE */
@@ -484,115 +482,114 @@ h1 {
 }
 
 .BIO h2 {
-	display: inline-block;
-	float: left;
+	display: block;
 	position: absolute;
 	left: 168px;
-	top: 3158px;
-	font-size: 30px;
+	top: 3790px;
+	font-size: 100px;
 	font-family: 'Antic', serif;
 	text-align: left;
 }
 
 .BIO p {
-	display: inline-block;
-	float: left;
+	display: block;
 	position: absolute;
 	left: 168px;
-	top: 3244px;
-	width: 542px;
-	height: 460px;
+	top: 4000px;
+	width: 80%;
+	height: auto;
 	font-family: 'Antic', serif;
 	text-align: justify;
+	font-size: 50px;
 }
 
 .SKILLS {
-	display: inline-block;
-	float: right;
+	display: block;
 	position: absolute;
 	background-color: #ffffff;
-	left: 839px;
-	top: 3105px;
-	width: 200px;
-	height: 30px;
+	left: 168px;
+	top: 4905px;
+	width: 60%;
+	height: 800px;
 	font-family: 'Antic', serif;
+	font-size: 50px;
 	text-align: left;
 	color:#000000;
 	opacity: 0.7;
-	padding: 53px 150px 451px 80px;
+	padding: 53px 0px 451px 300px;
 }
 
 
 /* EDUCATION PAGE */
 
 .EDU{
-	scroll-margin: 200px;
+	scroll-margin: 400px;
 }
 
 .EDU h2{
-	display: inline-block;
+	display: block;
 	float: left;
 	position: absolute;
 	left: 168px;
-	top: 3758px;
-	font-size: 30px;
+	top: 6758px;
+	font-size: 100px;
 	font-family: 'Antic', serif;
 	text-align: left;
 }
 
 .EDU img{
-	width: auto;
-	height:200px;
+	width: 500px;
+	height:auto;
 }
 
 
 .tabletennis{
-	display: inline-block;
+	display: block;
 	position: absolute;
 	left: 168px;
-	top: 3863px;
+	top: 7000px;
 	width: auto;
-	height:200px;
+	height:470px;
 	opacity: 0.7;
-	padding: 20px ;
-	padding-bottom: 50px;
+	padding: 50px ;
+	padding-bottom: 100px;
 }
 
 .tchouk{
 	display: inline-block;
 	position: absolute;
-	left: 460px;
-	top: 3863px;
+	left: 790px;
+	top: 7263px;
 	width: auto;
-	height:200px;
+	height:600px;
 	opacity: 0.7;
-	padding: 20px ;
-	padding-bottom: 50px;
+	padding: 50px ;
+	padding-bottom: 100px;
 }
 
 .grad{
 	display: inline-block;
 	position: absolute;
-	left: 692px;
-	top: 3863px;
+	left: 168px;
+	top: 7650px;
 	width: auto;
-	height:200px;
+	height:570px;
 	opacity: 0.7;
-	padding: 20px ;
-	padding-bottom: 70px;
+	padding: 50px ;
+	padding-bottom: 120px;
 }
 
 .eeg{
 	display: inline-block;
 	float: right;
 	position: absolute;
-	left: 932px;
-	top: 3863px;
+	left: 790px;
+	top: 8063px;
 	width: auto;
-	height:200px;
+	height:450px;
 	opacity: 0.7;
-	padding: 20px ;
-	padding-bottom: 70px;
+	padding: 50px ;
+	padding-bottom: 120px;
 }
 
 .words1{
@@ -614,72 +611,72 @@ h1 {
 
 .tabletennis:hover {
 	opacity: 1.0;
-	padding: 20px ;
-	padding-bottom: 50px;
+	padding: 50px ;
+	padding-bottom: 100px;
 	background-color: #ffffff;
 }
 
 .tabletennis:hover ~ .words1 {
 	display:block;
 	position:absolute;
-	left: 228px;
-	top:4090px;
+	left: 190px;
+	top:7470px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 40px;
 	font-family: fantasy;
 	p{margin:0}
 }
 
 .tchouk:hover {
 	opacity: 1.0;
-	padding: 20px ;
-	padding-bottom: 50px;
+	padding: 50px ;
+	padding-bottom: 100px;
 	background-color: #ffffff;
 }
 
 .tchouk:hover ~ .words2 {
 	display:block;
 	position:absolute;
-	left: 508px;
-	top:4090px;
+	left: 850px;
+	top:7870px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 40px;
 	font-family: fantasy;
 	p{margin:0}
 }
 
 .grad:hover {
 	opacity: 1.0;
-	padding: 20px ;
-	padding-bottom: 70px;
+	padding: 50px ;
+	padding-bottom: 120px;
 	background-color: #ffffff;
 }
 
 .grad:hover ~ .words3 {
 	display:block;
 	position:absolute;
-	left: 718px;
-	top:4090px;
+	left: 250px;
+	top:8240px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 30px;
 	font-family: fantasy;
 	p{margin:0}
 }
 
 .eeg:hover {
 	opacity: 1.0;
-	padding: 20px ;
-	padding-bottom: 70px;
+	padding: 50px ;
+	padding-bottom: 120px;
 	background-color: #ffffff;
 }
 
 .eeg:hover ~ .words4 {
 	display:block;
 	position:absolute;
-	left: 983px;
-	top:4090px;
+	left: 830px;
+	top:8520px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 30px;
 	font-family: fantasy;
 	p{margin:0}
 }
@@ -692,7 +689,7 @@ h1 {
 /* RESEARCH HIGHLIGHT */
 
 .RES{
-	scroll-margin: 150px;
+	scroll-margin: 400px;
 }
 
 .RES h2{
@@ -700,8 +697,8 @@ h1 {
 	float: left;
 	position: absolute;
 	left: 168px;
-	top: 4350px;
-	font-size: 30px;
+	top: 9800px;
+	font-size: 100px;
 	font-family: 'Antic', serif;
 	text-align: left;
 }
@@ -711,8 +708,8 @@ h1 {
 	float:left;
 	position: absolute;
 	left: 168px;
-	top: 4430px;
-	font-size: 15px;
+	top: 10130px;
+	font-size: 50px;
 	font-family: 'Antic', serif;
 	text-align: center;
 }
@@ -721,47 +718,47 @@ h1 {
 	display: inline-block;
 	float:right;
 	position: absolute;
-	left: 280px;
-	top: 4430px;
-	font-size: 15px;
+	left: 380px;
+	top: 10130px;
+	font-size: 40px;
 	font-family: 'Antic', serif;
-	text-align: left;
+	text-align: justify;
+	padding-right: 100px;
 }
 
 /* LETS CONNECT */
 
 .insta{
 	display: inline-block;
-	float:center;
 	position:absolute;
-	left:422px;
-	top:5309px;
+	left:502px;
+	top:12500px;
 }
 
 .linkedin{
 	display: inline-block;
 	float:center;
 	position:absolute;
-	left:648px;
-	top:5309px;
+	left:728px;
+	top:12500px;
 }
 
 .whatsapp{
 	display: inline-block;
 	float:center;
 	position:absolute;
-	left:874px;
-	top:5309px;
+	left:954px;
+	top:12500px;
 }
 
 .CON h2 {
 	display: inline-block;
 	float:center;
 	position:absolute;
-	left:572px;
-	top:5490px;
+	left:450px;
+	top:12700px;
 	padding-bottom: 200px;
-	font-size: 30px;
+	font-size: 70px;
 	font-family: 'Antic', serif;
 	text-align: center;
 	color: #000000;
@@ -771,10 +768,10 @@ h1 {
 	display: inline-block;
 	float:center;
 	position:absolute;
-	left:652px;
-	top:5580px;
-	padding-bottom: 200px;
-	font-size: 20px;
+	left:560px;
+	top:12900px;
+	padding-bottom: 2000px;
+	font-size: 70px;
 	font-family: 'Antic', serif;
 	text-align: center;
 	text-decoration: underline;
@@ -782,4 +779,3 @@ h1 {
 }
 
 }
-
