@@ -1,4 +1,3 @@
-
 /***************/
 /* DESKTOP VIEW */
 /***************/
@@ -488,7 +487,8 @@ h1 {
 .BIO h2 {
 	display: block;
 	position: absolute;
-	margin: 230% auto auto 10%;
+	top:105%;
+	left:12%;
 	font-size: 120%;
 	font-family: 'Antic', serif;
 	text-align: left;
@@ -497,7 +497,8 @@ h1 {
 .BIO p {
 	display: block;
 	position: absolute;
-	margin: 240% auto auto 10%;
+	top:110%;
+	left:12%;
 	width: 80%;
 	height: auto;
 	font-family: 'Antic', serif;
@@ -509,7 +510,8 @@ h1 {
 	display: block;
 	position: absolute;
 	background-color: #ffffff;
-	margin: 300% auto auto 10%;
+	top:140%;
+	left:12%;
 	width: 60%;
 	font-family: 'Antic', serif;
 	font-size: 80%;
@@ -523,14 +525,15 @@ h1 {
 /* EDUCATION PAGE */
 
 .EDU{
-	scroll-margin: 90px;
+	scroll-margin: 100px;
 }
 
 .EDU h2{
 	display: block;
 	float: left;
 	position: absolute;
-	margin: 445% auto auto 10%;
+	top:205%;
+	left:12%;
 	font-size: 120%;
 	font-family: 'Antic', serif;
 	text-align: left;
@@ -679,14 +682,15 @@ h1 {
 /* RESEARCH HIGHLIGHT */
 
 .RES{
-	scroll-margin: 90px;
+	scroll-margin: 100px;
 }
 
 .RES h2{
 	display: inline-block;
 	float: left;
 	position: absolute;
-	margin: 610% auto auto 10%;
+	top:280%;
+	left:12%;
 	font-size: 120%;
 	font-family: 'Antic', serif;
 	text-align: left;
@@ -696,7 +700,8 @@ h1 {
 	display: inline-block;
 	float:left;
 	position: absolute;
-	margin: 625% auto auto 10%;
+	top:290%;
+	left:12%;
 	font-size: 80%;
 	font-family: 'Antic', serif;
 	text-align: center;
@@ -706,7 +711,9 @@ h1 {
 	display: inline-block;
 	float:right;
 	position: absolute;
-	margin: 625% 10% 0% 22%;
+	top:290%;
+	left:25%;
+	padding-right: 7%;
 	font-size: 60%;
 	font-family: 'Antic', serif;
 	text-align: justify;
