@@ -395,7 +395,7 @@ h1 {
 
 /***************/
 /***************/
-/* iPhone MOBILE VIEW */
+/* MOBILE VIEW */
 /***************/
 /***************/
 
@@ -618,7 +618,7 @@ h1 {
 	left: 17%;
 	top: 230.5%;
 	text-align: center;
-	font-size: 50%;
+	font-size: 10%;
 	font-family: fantasy;
 	p{margin:0}
 }
@@ -635,7 +635,7 @@ h1 {
 	left: 62%;
 	top: 240.5%;
 	text-align: center;
-	font-size: 50%;
+	font-size: 10%;
 	font-family: fantasy;
 	p{margin:0}
 }
@@ -652,7 +652,7 @@ h1 {
 	left: 16%;
 	top:254.5%;
 	text-align: center;
-	font-size: 50%;
+	font-size: 10%;
 	font-family: fantasy;
 	p{margin:0}
 }
@@ -669,7 +669,7 @@ h1 {
 	left: 57%;
 	top:259.5%;
 	text-align: center;
-	font-size: 50%;
+	font-size: 10%;
 	font-family: fantasy;
 	p{margin:0}
 }
