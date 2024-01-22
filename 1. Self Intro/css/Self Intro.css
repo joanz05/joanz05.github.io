@@ -615,10 +615,10 @@ h1 {
 .tabletennis:hover ~ .words1 {
 	display:block;
 	position:absolute;
-	left: 15%;
+	left: 16%;
 	top: 230.5%;
 	text-align: center;
-	font-size: 70%;
+	font-size: 60%;
 	font-family: 'Antic';
 	p{margin:0}
 }
@@ -632,10 +632,10 @@ h1 {
 .tchouk:hover ~ .words2 {
 	display:block;
 	position:absolute;
-	left: 60%;
+	left: 62%;
 	top: 240.5%;
 	text-align: center;
-	font-size: 70%;
+	font-size: 60%;
 	font-family: 'Antic';
 	p{margin:0}
 }
@@ -649,10 +649,10 @@ h1 {
 .grad:hover ~ .words3 {
 	display:block;
 	position:absolute;
-	left: 16%;
+	left: 14%;
 	top:254.5%;
 	text-align: center;
-	font-size: 70%;
+	font-size: 60%;
 	font-family: 'Antic';
 	p{margin:0}
 }
@@ -669,7 +669,7 @@ h1 {
 	left: 55%;
 	top:259.5%;
 	text-align: center;
-	font-size: 70%;
+	font-size: 60%;
 	font-family: 'Antic';
 	p{margin:0}
 }
