@@ -615,10 +615,10 @@ h1 {
 .tabletennis:hover ~ .words1 {
 	display:block;
 	position:absolute;
-	left: 17%;
+	left: 15%;
 	top: 230.5%;
 	text-align: center;
-	font-size: 10%;
+	font-size: 10px;
 	font-family: fantasy;
 	p{margin:0}
 }
@@ -632,10 +632,10 @@ h1 {
 .tchouk:hover ~ .words2 {
 	display:block;
 	position:absolute;
-	left: 62%;
+	left: 60%;
 	top: 240.5%;
 	text-align: center;
-	font-size: 10%;
+	font-size: 10px;
 	font-family: fantasy;
 	p{margin:0}
 }
@@ -652,7 +652,7 @@ h1 {
 	left: 16%;
 	top:254.5%;
 	text-align: center;
-	font-size: 10%;
+	font-size: 10px;
 	font-family: fantasy;
 	p{margin:0}
 }
@@ -666,10 +666,10 @@ h1 {
 .eeg:hover ~ .words4 {
 	display:block;
 	position:absolute;
-	left: 57%;
+	left: 55%;
 	top:259.5%;
 	text-align: center;
-	font-size: 10%;
+	font-size: 10px;
 	font-family: fantasy;
 	p{margin:0}
 }
